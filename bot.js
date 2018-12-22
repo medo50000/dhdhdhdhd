@@ -23,7 +23,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
+        message.channel.send('#credits @★~♕MaN💎OF💎DarK♕#9999 100 ')
     }
 });
 
@@ -41,7 +41,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
+        message.channel.send('#credits @★~♕MaN💎OF💎DarK♕#9999 100 ')
     }
 });
 

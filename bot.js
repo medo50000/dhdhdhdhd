@@ -14,7 +14,7 @@ client.on('ready', () => {
    console.log(`----------------`);
 });
 
-var PrEfix = "-";
+var PrEfix = "-say";
 client.on('message', message => {
     if(message.content === '-راتب'){
         message.channel.send('#daily')
@@ -23,7 +23,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '-مبلغ'){
-        message.channel.send('#credits @★~♕MaN💎OF💎DarK♕#9999 100 ')
+        message.channel.send('#credits')
     }
 });
 
